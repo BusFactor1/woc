@@ -23,7 +23,9 @@
 #include <sys/stat.h>
 #include <sys/mman.h>
 
-
+#ifndef PATH_MAX
+#define PATH_MAX 1024
+#endif
 
 int count_occurances(char** words, int num_words, char* filename) {
   FILE* file = fopen(filename, "r");

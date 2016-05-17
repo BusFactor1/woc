@@ -19,3 +19,4 @@ DONE
    for the shell to expand all of the filenames prior to invoking woc
    Note: still required -- as seperator, but I don't think that is a
    problem.
+-- if -- is not found in command line arguments, assume . for the directory
